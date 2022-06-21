@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.restapiexample.dummy.restapiexampleinfo.EmployeeCURDTestWithSteps" skipped="0" tests="1" time="3.14" timestamp="2022-06-06T14:40:13.292+01:00[Europe/London]"><testcase classname="com.restapiexample.dummy.restapiexampleinfo.EmployeeCURDTestWithSteps" name="This will Updated created id"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;405&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;405&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.restapiexample.dummy.restapiexampleinfo.EmployeeCURDTestWithSteps.test003(EmployeeCURDTestWithSteps.java:53)&#13;
+</system-err></testcase></testsuite>
